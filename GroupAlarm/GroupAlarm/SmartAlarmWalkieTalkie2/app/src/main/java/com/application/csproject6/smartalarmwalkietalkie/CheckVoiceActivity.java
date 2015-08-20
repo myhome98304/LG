@@ -37,7 +37,7 @@ import java.util.Arrays;
 public class CheckVoiceActivity extends Activity implements View.OnClickListener, SpeechRecognizeListener{
 
     private SpeechRecognizerClient client;
-    public static final String APIKEY = "e287479ae78f8f4f0bcaefbfd6dae56c";
+    public static final String APIKEY = "a2072892483fa8722011ce8b5075800f";
     public static String EXTRA_KEY_RESULT_ARRAY = "result_array";
 
     public static int PASS_THE_TEST = 1;
