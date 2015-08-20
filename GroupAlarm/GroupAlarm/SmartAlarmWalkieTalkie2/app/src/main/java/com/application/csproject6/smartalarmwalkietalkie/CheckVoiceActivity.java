@@ -35,7 +35,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class CheckVoiceActivity extends Activity implements View.OnClickListener, SpeechRecognizeListener{
-
+    public int a =3;
     private SpeechRecognizerClient client;
     public static final String APIKEY = "a2072892483fa8722011ce8b5075800f";
     public static String EXTRA_KEY_RESULT_ARRAY = "result_array";
