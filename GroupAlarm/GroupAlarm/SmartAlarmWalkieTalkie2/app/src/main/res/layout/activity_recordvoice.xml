@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:weightSum="1">
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textClock"
+        android:textSize="45dp"
+        android:textColor="#4bdcef"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ProgressBar
+            android:id = "@+id/startProgress"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:max = "100"
+            android:layout_alignTop="@+id/recBtn"
+            android:layout_alignRight="@+id/recBtn"
+            android:layout_alignEnd="@+id/recBtn"/>
+
+        <Button
+            android:id="@+id/recBtn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/recordicon" />
+
+    </RelativeLayout>
+
+</LinearLayout>
